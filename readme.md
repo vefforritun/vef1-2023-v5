@@ -26,7 +26,9 @@ Nú skal bæta við ítra útlitið. Allt útlitið skal vera í `./styles.css` 
 
 ## Útlit
 
-Fyrirmyndir að útliti er í `fyrirmynd/` möppu í mismunandi upplausnum. Athugið að fyrirmyndir er uppfærð frá verkefni 4.
+Fyrirmyndir að útliti er í `fyrirmynd/` möppu í mismunandi upplausnum. Athugið að fyrirmyndir er uppfærð frá verkefni 4. Skjáskot eru af forsíðu en myndband sýnir allar síður.
+
+Útlit á „takka“ (sem er samt í flestum tilfellum fyrir `<a href>`) hefur verið bætt
 
 **Allt það sem tekið er fram í verkefnum 3 og 4 gildir áfram nema annað komi fram hér**.
 
@@ -46,9 +48,9 @@ Nota skal skilgreind CSS custom properties sem gefin eru í `styles.css`, búið
 
 Þrír brotpunktar eru nú:
 
-- Upp að `XXXpx` breiðum glugga.
-- Þaðan og upp að `XXXpx`.
-- Þaðan og upp að hámarksbreidd.
+- Upp að `500px` breiðum glugga.
+- Þaðan og upp að `1000px`.
+- Þaðan og upp að hámarksbreidd `1400px`.
 
 Útfærslur á boxum hefur breyst í samræmi við breiðara útlit, í breiðustu útfærslu birtast þrjú í röð, síðan tvö og loks eitt.
 
@@ -58,15 +60,14 @@ Nota skal skilgreind CSS custom properties sem gefin eru í `styles.css`, búið
 
 ### Kvikun
 
-Setja skal upp kvikun fyrir viðburði, bækur og takka:
+Setja skal upp kvikun:
 
-- Þegar sveimað (hover) er yfir viðburð skal sýna bakhlið með öllum upplýsingum um viðburð
-- Þegar sveimað er yfir bók skal „zooma“ inn á mynd með því að stækka hana um 30%
-- Þegar sveimað er yfir takka skal skipta litum á bakgrunni og texta, þegar smellt skal síðan skipta aftur
+- Þegar síða opnast skal fara úr `opacity: 0` í `opacity: 1`.
+- Þegar sveimað er yfir takka skal snúa við litum.
 
 Nota skal CSS custom properties sem eiga við kvikun og hafa forskeytið `--transition-`.
 
-Sjá hvernig kvikun hegðar sér í myndbandi í `./fyrirmynd/fyrirmynd.mp4`.
+Sjá hvernig kvikun hegðar sér í myndbandi í `./fyrirmynd/v5.mp4`.
 
 ### Leturgerðir
 
@@ -89,11 +90,11 @@ Setja skal upp verkefni á Netlify með því að hlaða upp skrám með „manu
 
 ## Sett fyrir
 
-Verkefni sett fyrir í fyrirlestri mánudaginn 18. september 2023.
+Verkefni sett fyrir af alvöru í fyrirlestri mánudaginn 25. september 2023.
 
 ## Skil
 
-Skila skal í Canvas, seinasta lagi fyrir lok dags fimmtudaginn 28. september 2023.
+Skila skal í Canvas, seinasta lagi fyrir lok dags mánudaginn 2. október 2023.
 
 Skilaboð skulu innihalda:
 
