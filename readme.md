@@ -1,7 +1,5 @@
 # Vefforritun 1, 2023: Verkefni 5, CSS #3
 
-_Í vinnslu_.
-
 ## Markmið
 
 - Útfæra skalanlegann vef.
