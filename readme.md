@@ -1,5 +1,7 @@
 # Vefforritun 1, 2023: Verkefni 5, CSS #3
 
+[Kynning í fyrirlestri](https://youtu.be/R6dVPYmPbnE).
+
 ## Markmið
 
 - Útfæra skalanlegann vef.
